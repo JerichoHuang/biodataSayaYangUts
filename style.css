@@ -1,0 +1,114 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p{
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 2vw;
+    width: 10%;
+}
+
+/* Main */
+
+/* welcome */
+.welcome p{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    font-size: 3vw;
+}
+.welcome p span{
+    display: inline-block;
+    position: relative;
+    transform: rotate(100deg) scale(0);
+    opacity: 0;
+    text-align: center;
+    animation: animate 3s alternate infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes animate{
+    100%{
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+main{
+    padding: 2vw 2vw;
+}
+
+main div{
+    padding-top: 1vw;
+}
+
+main h6{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+/* Nama */
+.nama{
+    background-color: orange;
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+.nama h1{
+    text-align: center;
+}
+
+/* email */
+.email{
+    margin-top: 3vw;
+    background-color: red;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+.email h2{
+    text-align: center;
+}
+
+/* riwayat */
+.riwayat{
+    margin-top: 3vw;
+    background-color: yellow;
+    padding: 1vw;
+}
+
+.riwayat table{
+    margin: auto;
+    padding: auto;
+    font-size: 1vw;
+}
+
+/* hobi */
+.hobi{
+    margin-top: 3vw;
+    background-color: green;
+    padding: 1vw;
+}
+
+/* keahlian */
+.keahlian{
+    margin-top: 3vw;
+    background-color: cyan;
+    padding: 1vw;
+}
+
+/* motto */
+.motto{
+    margin-top: 3vw;
+    background-color: darkviolet;
+    padding: 1vw;
+}
